@@ -7,6 +7,6 @@ int main(void)
 
     int *un_ptr_de_entero = &una_letra;
 
-    printf("%c\n", una_letra)
+    printf("%d\n", *un_ptr_de_entero);
     return 0;
 }
